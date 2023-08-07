@@ -1,5 +1,5 @@
 # LAN-HDR
-Pytorch implementation of our paper: LAN-HDR: Luminance-based Alignment Network for High Dynamic Range Video Reconstruction 
+This repository is an official implementation of the paper: LAN-HDR: Luminance-based Alignment Network for High Dynamic Range Video Reconstruction.
 
 ## Environments
 - Ubuntu 18.04
