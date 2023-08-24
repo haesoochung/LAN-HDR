@@ -23,7 +23,7 @@ Type the following command to build the environment after dowloading 'lan-hdr.ym
 conda env create -f lan-hdr.yml
 ```
 #### Data preparation
-1. Download the [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset/) for training and testing.
+1. Download the [DeepHDRVideo-Dataset](https://github.com/guanyingc/DeepHDRVideo-Dataset/) for training and testing. (All the data can be downloaded from the provided Onedrive link.)
 2. Locate the downloaded datasets to "data" folder.
 
 ## Training
@@ -48,7 +48,9 @@ CUDA_VISIBLE_DEVICES=#,# python -m torch.distributed.launch --nnode=1 --nproc_pe
 ## Test
 Specify the test dataset and its location with argument "--benchmark" and "--data_dir", respectively.
 
-(Cinematic Video dataset: synthetic_dataset / DeepHDRVideo dataset: dynamic_dataset & static_dataset / HDRVideo dataset: tog13_online_align_dataset)
+- Cinematic Video dataset: synthetic_dataset
+- DeepHDRVideo dataset: dynamic_dataset & static_dataset
+- HDRVideo dataset: tog13_online_align_dataset
 
 ##### 2 Exposures
 ```
