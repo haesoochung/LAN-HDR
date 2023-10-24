@@ -66,3 +66,14 @@ python main.py --affix 3E_test --nexps 3 --nframes 7 --benchmark dynamic_dataset
 python main.py --affix 3E_test --nexps 3 --nframes 7 --benchmark static_dataset --gpu 0 --data_dir ./data/static_RGB_data_3exp_rand_motion_release
 python main.py --affix 3E_test --nexps 3 --nframes 7 --benchmark tog13_online_align_dataset --gpu 0 --data_dir ./data/TOG13_Dynamic_Dataset
 ```
+
+## Citation
+```
+@inproceedings{chung2023lan,
+  title={LAN-HDR: Luminance-based Alignment Network for High Dynamic Range Video Reconstruction},
+  author={Chung, Haesoo and Cho, Nam Ik},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={12760--12769},
+  year={2023}
+}
+```
